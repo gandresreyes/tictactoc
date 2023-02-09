@@ -1,0 +1,84 @@
+svg{
+    width: 100px;
+    height: 100px;
+}
+
+.titulo{
+    min-height: 400px;
+    
+}
+.traslete{
+    transform: translateY(-210px);
+    transition: all .7s;
+}
+.btn-new , .btn-united {
+    font-size: 26px ;
+    font-weight: 700;
+    color: white;
+    border: 1px solid var(--border) ;
+    border-radius: 5px;
+    
+}
+
+.btn-new:hover ,.btn-united:hover  {
+    color: black;
+    background-color: white ;
+}
+td{
+
+    height: 121px;
+    width: 121px;
+    padding: 8px;
+    position: relative;
+    vertical-align: top;  
+    border: 5px solid gray;
+}
+
+
+h1{
+    font-size: 5em;
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient(#fff, rgba(0, 0, 0, 0.39));
+}
+
+.text-jugador{
+    font-size: 3em;
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient(#fff, rgba(255, 255, 255, 0.699));
+    font-weight: 500;
+}
+
+input{
+    background-color:  transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.input{
+    border: 1px solid   var(--border);
+    padding: 6px;
+}
+
+.btn-add{
+    border: 1px solid   var(--border);
+    background-color: aqua;
+}
+.text-message{
+    font-size: 6em;
+}
+.modal-dialog {
+    backdrop-filter: blur(3px); 
+}
+@media (max-width: 576px) { 
+    h1{
+        font-size: 2em;
+    }
+    .text-message{
+        font-size: 3em;
+    }
+
+}
+
+

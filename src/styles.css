@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --border:rgba(255, 255, 255, 0.137) ;
+    --border-hover:#fff;
+}
+
+body{
+    background-image: linear-gradient(215deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    color: white;
+}
+.zoom{
+    animation: zoom 1s 1 ;
+}
+
+
+@keyframes zoom {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.3);}      
+    100% { transform: scale(1);}
+}
